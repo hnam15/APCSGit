@@ -1,0 +1,31 @@
+import java.sql.Timestamp;
+
+ if 0:00<getTime()<7:00
+
+            Stay asleep
+
+Else if getTime()>=7:00
+
+            Wake up
+
+While 7:20>getTime()>7:10
+
+            Shower
+
+If getTime()>=7:20
+
+            Get dressed
+
+Else If getTime()=7:30
+
+            Go to dininghall
+
+While 7:50>getTime()>7:30
+
+            Eat Breakfast
+
+If getTime=7:50
+
+            Walk to chapel
+
+            Sit down quietly
