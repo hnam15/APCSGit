@@ -22,3 +22,8 @@ public boolean badIndentation(int maxLines)
 (b) The program compiles, but the window is empty. The HelloGui() method is no longer treated as a constructor, so the default constructor is used instead. The String that is supposed to appear has a null value.
 
 12.
+(a) Quotation mark missing after roost.wav.
+c.setBackground(Color.WHITE); misspelled as c.seBackground(Color.WHITE);.
+Parantheses missing after Morning in line 24.
+
+
