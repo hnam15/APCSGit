@@ -3,4 +3,22 @@ This error appears because Java is case sensitive.
 
 7. the braces are optional and are a matter of style; however, the parantheses are required by the Java syntax and are not a matter of style.
 
-8. The class compiles with no error because there are no syntax errors. The if statement is treated as an empty statement because of the 
+8. The applet does not show any message when compiled with an extra semicolon in the if statement. The class compiles with no error because there are no syntax errors. The if statement is treated as an empty statement because of the semicolon. The message does not move across the screen because without the if statement, the message does not continually refresh itself at changing x positions.
+
+9. 
+public boolean badIndentation(int maxLines)
+{
+  int lineCount = 3;
+  while (lineCount < maxLines)
+  {
+    System.out.println(lineCount);
+    lineCount++;
+  }
+  return true;
+}
+
+11.
+(a) The title bar of the frame is empty, but the program still runs.
+(b) The program compiles, but the window is empty. The HelloGui() method is no longer treated as a constructor, so the default constructor is used instead. The String that is supposed to appear has a null value.
+
+12.
