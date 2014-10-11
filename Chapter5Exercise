@@ -1,0 +1,6 @@
+6. An error message appears when the class is compiled, saying "Exception in thread "main" java.lang.NoSuchMethodError: main".
+This error appears because Java is case sensitive.
+
+7. the braces are optional and are a matter of style; however, the parantheses are required by the Java syntax and are not a matter of style.
+
+8. The class compiles with no error because there are no syntax errors. The if statement is treated as an empty statement because of the 
