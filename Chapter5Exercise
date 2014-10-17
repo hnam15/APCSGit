@@ -26,6 +26,6 @@ public boolean badIndentation(int maxLines)
 c.setBackground(Color.WHITE); misspelled as c.seBackground(Color.WHITE);.
 Parantheses missing after Morning in line 24.
 
-(b) //TODO
+(b) 
 
 
