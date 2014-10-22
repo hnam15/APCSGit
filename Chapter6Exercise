@@ -1,0 +1,31 @@
+6.
+  (a) System.out.print(5/10); -> 0  int division
+  (b) System.out.print(1/2*10); -> 0  int division of 1/2=0, 0*10 = 0
+  (c) System.out.print(1.0/2*10); -> 5.0  
+  (d) System.out.print(1/2.0*10); -> 5.0
+  (e) System.out.print(13%5); -> 3  5*2+3=13
+
+7.
+  (a) balance = (int)(100*1.058) = (int)105.8 = 105
+  (b) miles/gallons = 98/5 = 19
+      gasMileage = 19.0
+
+8.
+  original: count += (((total/pages) - 5) * words - 1);
+  answer: count += (total/pages - 5) * words - 1;
+  
+9.
+  Original:
+  
+  final double g = 16.0;
+  double t = 35.5;
+  System.out.print("The travel distance is ");
+  System.out.println(1/2*(g*t*t));
+  
+  Answer:
+  
+  final double g = 16.0;
+  double t = 35.5;
+  System.out.print("The travel distance is ");
+  System.out.println(1.0/2*(g*t*t));
+
