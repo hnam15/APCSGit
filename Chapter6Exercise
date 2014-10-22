@@ -34,6 +34,6 @@
   
 16.
   double meters = inches*0.0254;
-	double kilograms = lbs*0.454;
-	
-	return kilograms/(meters*meters);
+  double kilograms = lbs*0.454;
+  
+  return kilograms/(meters*meters);
