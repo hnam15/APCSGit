@@ -27,5 +27,13 @@
   final double g = 16.0;
   double t = 35.5;
   System.out.print("The travel distance is ");
-  System.out.println(1.0/2*(g*t*t));
+  System.out.println(1.0/2*(g*t*t));\
 
+12.
+  Instead of double a,b; int temp; --> double a,b,temp;
+  
+16.
+  double meters = inches*0.0254;
+	double kilograms = lbs*0.454;
+	
+	return kilograms/(meters*meters);
