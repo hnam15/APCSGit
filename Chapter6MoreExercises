@@ -1,7 +1,24 @@
 13. 
+public class UnitSwap {
+	public static String Swapper(int n){
+		int digit1 = n%10;
+		int digit10 = (n%100 - digit1)/10;
+		int digit100 = (n - digit1 - digit10)/100;
+		String firstDigit = digit1+"";
+		String tenDigit = digit10+"";
+		String highDigit = digit100+"";
+		
+		if (n>=100)
+			return highDigit + firstDigit + tenDigit;
+		else if (n<100)
+			return firstDigit+tenDigit;
+		else return firstDigit+"0";
+	}
+	public static void main(String[] args){
+		
+		System.out.println(Swapper(123));
+	
+	}
+}
 
-16.
-  double meters = inches*0.0254;
-  double kilograms = lbs*0.454;
-  
-  return kilograms/(meters*meters);
+14.
