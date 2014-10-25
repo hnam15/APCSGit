@@ -22,3 +22,28 @@ public class UnitSwap {
 }
 
 14.
+public class DayMonth {
+	
+	public static int whichDay(int x, int y){
+		int dayOfWeek1 = x;
+		int day = y;
+		int dayOfWeek = (x + y - 1) % 7;
+		return dayOfWeek;
+	}
+
+	public static void main(String[] args) {
+		System.out.print(whichDay(3,13));
+
+	}
+}
+
+15.
+remainingMinutes
+
+depHour * 60 + depMin - curHour * 60 - curMin
+
+remainingMinutes / 60
+
+remainingMinutes % 60
+
+
