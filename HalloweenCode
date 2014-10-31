@@ -1,3 +1,5 @@
+//In collaboration with Philippe
+
 import java.awt.*;
 import java.awt.geom.Rectangle2D;
 import java.applet.*;
