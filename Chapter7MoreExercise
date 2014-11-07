@@ -8,7 +8,7 @@
 
 10.
 
-boolean geoSeqeunce = (a*c == b*b);
+boolean geoSeqeunce = a*c == b*b;
 
 11.
 (a)
